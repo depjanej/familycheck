@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="famcheckapp.MyDetailsPage1">
+
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Log Out"  Order="Primary" Priority="0" Icon="settings.png">
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  
+</ContentPage>
